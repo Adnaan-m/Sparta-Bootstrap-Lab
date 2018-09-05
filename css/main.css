@@ -3,6 +3,7 @@
   background-color: rgb(39, 142, 161);
 }
 
+/* navbar text colour */
 .navbar .container-fluid a{
   color: white;
 }
@@ -16,6 +17,7 @@
   padding-bottom: 30px;
 }
 
+/* background colour of os (cards) */
 .w3-card-4{
   background-color: white;
 }
@@ -51,17 +53,17 @@
 }
 
 /* Contact Us page */
-.formsection{
-width: 100%;
-height: 10000px;
+.form {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: inline-flex;
+  width:100%;
+  margin: auto;
+  text-align: left;
+  justify-content: center;
 }
 
-.form {
-/* margin: 0; */
-text-align: center;
-display: inline-flex;
-/* line-height: 50px; */
-width:100%;
-margin: auto;
-text-align: left;
-justify-content: center;}
+@media screen and (max-width:750px){
+  .form{
+    display:block;
+  }
