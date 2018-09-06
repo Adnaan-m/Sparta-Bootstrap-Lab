@@ -33,6 +33,12 @@
   text-align: center;
 }
 
+.jumbotron #myModal{
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
 .midsection{
   text-align: center;
   padding: 20px;
